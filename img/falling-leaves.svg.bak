@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="21.149mm" height="100.88mm" version="1.1" viewBox="0 0 21.149 100.88" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-105 -92.918)">
+  <g>
+   <g transform="matrix(.24077 .70284 -.69421 .24377 182.78 -2.399)" stroke-width="1.3526">
+    <ellipse transform="matrix(.21147 .97738 -.98366 .18003 0 0)" cx="159.72" cy="-93.046" rx="8.6058" ry="15.771" fill="#fd5" fill-opacity=".90196" opacity=".9" stroke="#ffde55" stroke-opacity=".81176" stroke-width=".39376"/>
+    <g stroke="#db7527" stroke-linecap="round">
+     <g>
+      <path d="m110.19 142.2 30.224-5.6163" fill="#a80" stroke-width="1.0736"/>
+      <path d="m129.41 139.21 5.9582 5.2989" fill="#a80" stroke-width="1.0736"/>
+      <path d="m122.23 140.1 7.498 6.7742" fill="none" stroke-width="1.0736"/>
+     </g>
+     <path d="m115.43 141.45 7.3168 6.4686" fill="none" stroke-linejoin="bevel" stroke-width="1.0736"/>
+     <path d="m129.16 138.11 3.2987-6.993" fill="#a80" stroke-width="1.0736"/>
+     <path d="m122.17 139.82 4.1071-8.8981" fill="none" stroke-width="1.0736"/>
+     <path d="m115.32 140.97 4.0668-8.552" fill="none" stroke-linejoin="bevel" stroke-width="1.0736"/>
+    </g>
+   </g>
+   <path d="m121.86 146.05c2.6156-4.6076 3.8529-6.4265 3.5972-9.9412-0.12917-1.7754-2.5248-4.7059-2.5248-4.7059" fill="none" stroke="#ff7f2a" stroke-dasharray="1.05833334, 0.26458333" stroke-width=".26458"/>
+   <g transform="rotate(117.93 113.92 148.26)">
+    <ellipse transform="matrix(.21147 .97738 -.98366 .18003 0 0)" cx="159.72" cy="-93.046" rx="8.6058" ry="15.771" fill="#fd5" fill-opacity=".90196" opacity=".9" stroke="#ffde55" stroke-opacity=".81176" stroke-width=".29112"/>
+    <g stroke="#db7527" stroke-linecap="round">
+     <g>
+      <path d="m110.19 142.2 30.224-5.6163" fill="#a80" stroke-width=".79375"/>
+      <path d="m129.41 139.21 5.9582 5.2989" fill="#a80" stroke-width=".79375"/>
+      <path d="m122.23 140.1 7.498 6.7742" fill="none" stroke-width=".79375"/>
+     </g>
+     <path d="m115.43 141.45 7.3168 6.4686" fill="none" stroke-linejoin="bevel" stroke-width=".79375"/>
+     <path d="m129.16 138.11 3.2987-6.993" fill="#a80" stroke-width=".79375"/>
+     <path d="m122.17 139.82 4.1071-8.8981" fill="none" stroke-width=".79375"/>
+     <path d="m115.32 140.97 4.0668-8.552" fill="none" stroke-linejoin="bevel" stroke-width=".79375"/>
+    </g>
+   </g>
+   <path d="m108.76 107.65c-2.6156-4.6076-3.8529-6.4265-3.5972-9.9412 0.12917-1.7754 2.5248-4.7059 2.5248-4.7059" fill="none" stroke="#ff7f2a" stroke-dasharray="1.06, 0.265" stroke-width=".265"/>
+   <path d="m112.49 193.78c-0.64454-4.3737-2.256-6.1589-2.2743-9.3743-0.0125-2.2036 1.2019-5.2728 1.2019-5.2728" fill="none" stroke="#ff7f2a" stroke-dasharray="1.05833336, 0.26458333" stroke-width=".26458"/>
+  </g>
+ </g>
+</svg>
