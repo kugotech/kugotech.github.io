@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="32.315mm" height="28.687mm" version="1.1" viewBox="0 0 32.315 28.687" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient20285" x1="1233.5" x2="1398.5" y1="499.75" y2="499.75" gradientTransform="translate(560.82 -2959.2)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19026"/>
+  <linearGradient id="linearGradient19026">
+   <stop style="stop-color:#03a5fe" offset="0"/>
+   <stop style="stop-color:#0df7fe" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient20277" x1="1240.6" x2="1394.2" y1="-3605.4" y2="-3605.4" gradientTransform="translate(560.82 1120.8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19026"/>
+  <linearGradient id="linearGradient20269" x1="1237.8" x2="1394" y1="-3623.9" y2="-3623.9" gradientTransform="translate(560.82 1120.8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19026"/>
+  <linearGradient id="linearGradient20261" x1="1250" x2="1387.6" y1="-3565" y2="-3565" gradientTransform="translate(1046.8 910.95)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19026"/>
+  <linearGradient id="linearGradient20287" x1="1356.4" x2="1383.5" y1="-3635.3" y2="-3635.3" gradientTransform="translate(1046.8 910.95)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19026"/>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-26.176 -42.264)">
+  <g transform="matrix(.26458 0 0 .26458 -172.87 947.67)">
+   <g transform="matrix(.72692 0 0 .72515 210.03 -923.75)" style="stroke-width:1.3773">
+    <path d="m764.12-3439.7c-6.9942 0-12.625 5.6307-12.625 12.625v113.25c0 6.9942 5.6308 12.625 12.625 12.625h131.75c6.9942 0 12.625-5.6308 12.625-12.625v-113.25c0-6.9943-5.6308-12.625-12.625-12.625z" style="fill-rule:evenodd;fill:#fff;stroke-opacity:.78039;stroke-width:11.019;stroke:url(#linearGradient20285)"/>
+    <path d="m754.62-3395.5h153.55" style="fill:none;stroke-width:8.264;stroke:url(#linearGradient20277)"/>
+    <path d="m751.8-3408.7h12.112l6.2257-10.783h23.622l6.3184 10.944h107.88" style="fill:none;stroke-width:8.264;stroke:url(#linearGradient20269)"/>
+    <g transform="translate(-488.78 199.85)" style="stroke-width:1.3773;stroke:url(#linearGradient20261)">
+     <rect x="1253" y="-3584.4" width="38.391" height="38.39" style="fill-rule:evenodd;fill:#fff;stroke-opacity:.78039;stroke-width:8.264;stroke:url(#linearGradient20261)"/>
+     <rect x="1299.6" y="-3584.4" width="38.391" height="38.39" style="fill-rule:evenodd;fill:#fff;stroke-opacity:.78039;stroke-width:8.264;stroke:url(#linearGradient20261)"/>
+     <rect x="1346.2" y="-3584" width="38.391" height="38.39" style="fill-rule:evenodd;fill:#fff;stroke-opacity:.78039;stroke-width:8.264;stroke:url(#linearGradient20261)"/>
+    </g>
+    <g transform="translate(-486 211.58)" style="stroke-width:1.3773;stroke:url(#linearGradient20287)">
+     <circle cx="1360.4" cy="-3635.4" r="1.514" style="fill:#1c2224;stroke-linecap:round;stroke-linejoin:bevel;stroke-width:6.8867;stroke:url(#linearGradient20287)"/>
+     <circle cx="1369.9" cy="-3635.2" r="1.514" style="fill:#1c2224;stroke-linecap:round;stroke-linejoin:bevel;stroke-width:6.8867;stroke:url(#linearGradient20287)"/>
+     <circle cx="1379.5" cy="-3635.3" r="1.514" style="fill:#1c2224;stroke-linecap:round;stroke-linejoin:bevel;stroke-width:6.8867;stroke:url(#linearGradient20287)"/>
+    </g>
+   </g>
+   <text x="790.7937" y="-3326.833" style="fill:#ff6600;font-family:Raleway;font-feature-settings:normal;font-size:24px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;letter-spacing:0px;line-height:1.25;word-spacing:0px" xml:space="preserve"><tspan x="790.7937" y="-3326.833" style="font-family:Raleway;font-feature-settings:normal;font-size:24px;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold">SPA</tspan></text>
+  </g>
+ </g>
+</svg>

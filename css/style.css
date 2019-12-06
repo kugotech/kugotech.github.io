@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Helper */
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+/* General */
+@@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: local('Montserrat-Regular.ttf'), url(Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+@@font-face {
+  font-family: 'Montserrat-ExtraBold', sans-serif;
+  src: local('Montserrat-ExtraBold.ttf'), url(Montserrat/Montserrat-ExtraBold.ttf) format('truetype');
+}
+
+@@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: local('Raleway-Regular.ttf'), url(Raleway/Raleway-Regular.ttf) format('truetype');
+}
+
+@@font-face {
+  font-family: 'Raleway-SemiBold', sans-serif;
+  src: local('Raleway-SemiBold.ttf'), url(Raleway/Raleway-SemiBold.ttf) format('truetype');
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hero */
+#hero {
+  margin: 6px auto;
+}
+
+.hero-top {
+  background-color: green;
+  display: flow-root;
+}
+
+.container {
+  background-color: blue;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+
+.logo {
+  display: inline-block;
+  width: 84px;
+  max-width: 84px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 3px;
+  border-bottom: 4px solid transparent;
+  color: #C87137;
+  transition: border-bottom 0.3s;
+}
+
+.nav li a:hover {
+  border-bottom: 4px solid #C87137;
+  transition: border-bottom 0.3s;
+}
+
+.cta {
+  background-color: yellow;
+  display: inline-block;
+  padding: 12px;
+}
+
+.cta-image {
+  /* background-color: green; */
+  /* padding: 28px; */
+  padding: 0px;
+}
+
+.cta-info {
+  padding: 6px;
+}
+
+.cta-info a {
+  font-family: 'Montserrat-ExtraBold', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #FF7F2A;
+  text-decoration: none;
+}
+
+.cta-info p {
+  font-family: 'Montserrat-ExtraBold', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #C87137;
+  padding: 12px;
+}
+
+/* Dev Type */
+#dev-type .container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.dev-type {
+  width: 33.33%;
+  float: left;
+	margin: 0px 0px;
+  padding: 6px 6px;
+}
+
+.dev-type p {
+  font-family: 'Raleway-SemiBold', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 18px 18px;
+  color: #646464;
+	-webkit-box-shadow: 0px 0px 75px -10px rgba(179,179,179,0.7);
+	-moz-box-shadow: 0px 0px 75px -10px rgba(179,179,179,0.7);
+	box-shadow: 0px 0px 75px -10px rgba(179,179,179,0.7);
+}
+
+.dev-type-row {
+  overflow: hidden;
+  margin-top: 20px;
+}
