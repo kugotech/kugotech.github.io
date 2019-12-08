@@ -14,37 +14,37 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
   <section id="hero">
-    <div class="container center">
+    <div class="container center padding-10-10">
 
       <div class="hero-top">
-        <div class="logo align-left">
+        <div class="logo align-left" id="logo">
           <a href="/">
             <img src="img/kugo-logo.svg" class="logo-img" />
           </a>
         </div>
 
-        <nav class="navbar">
-          <a class="burger-nav"></a>
-          <ul class="nav align-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Offer</a></li>
-            <li><a href="/">Promo</a></li>
-            <li><a href="/">Jobs</a></li>
-            <li><a href="/">Contact</a></li>
-          </ul>
+        <nav class="">
+          <div class="topnav" id="topnav">
+            <a class="active" href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Offer</a>
+            <a href="/">Promo</a>
+            <a href="/">Jobs</a>
+            <a href="/">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleResponsive()">
+              <i class="fa fa-bars"></i>
+            </a>
         </nav>
       </div>
 
       <div class="cta">
-        <div class="cta-image">
-          <img src="img/header-main-image.svg" />
-        </div>
+          <img class="cta-image" src="img/header-main-image.svg" />
 
         <div class="cta-info">
           <h1>
@@ -65,65 +65,425 @@
     </div>
   </section>
 
-  <section id="dev-type">
+  <section class="margin-bottom-20" id="dev-type">
     <div class="container">
 
-      <div class="dev-type-row">
-        <div class="dev-type">
+      <div class="box-row">
+
+        <div class="box center min-width-150">
           <img src="img/api-cloud-icon.svg" alt="api development icon">
-          <p>
-            We design extensible and robust RESTful and GraphQL APIS • A resilient and escalable backend solution to support browsers, mobile devices and IoT devices in real-time.
-          </p>
+          <div class="shadowed-box block">
+            <p>
+              We design extensible and robust RESTful and GraphQL APIS • A resilient and escalable backend solution to support browsers, mobile devices and IoT devices in real-time.
+            </p>
+          </div>
         </div>
-        <div class="dev-type">
+
+        <div class="box center min-width-150">
           <img src="img/web-world-icon.svg" alt="web development icon">
-          <p>
-            A solution that integrates backend and frontend using a robust architecture • Stylized interfaces based on responsive design supported by a highly concurrent and resource-efficient escalable core • If your want to target organic search
-            traffic we highly recommend this approach for your site.
-          </p>
+          <div class="shadowed-box block">
+            <p>
+              A solution that integrates backend and frontend using a robust architecture • Stylized interfaces based on responsive design supported by a highly concurrent and resource-efficient escalable service • If your want to target organic
+              search traffic we highly recommend this approach for your site.
+            </p>
+          </div>
         </div>
-        <div class="dev-type">
+
+        <div class="box center min-width-150">
           <img src="img/spa-browser-icon.svg" alt="spa development icon">
-          <p>
-            Smooth and trouble-free user experience • Simplicity and easy navigation combined with an elegant design that attracts customers attention and encourages them to return to your site.
-          </p>
+          <div class="shadowed-box block">
+            <p>
+              Smooth and trouble-free user experience • Simplicity and easy navigation combined with an elegant design that attracts customers attention and encourages them to return to your site.
+            </p>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <section id="dev-types">
+  <!-- About -->
+  <section class="margin-bottom-20" id="about">
+    <div class="container section-highlight">
+
+      <!-- <div class="align-left min-width-40pct max-width-50pct team-img-bg team-img responsive">
+        <img src="img/team.png" alt= "team working" width="590px">
+      </div> -->
+
+
+      <div class="max-height-350 block">
+        <img src="img/team.jpg" alt= "team working">
+      </div>
+
+      <div class="margin-top-20 margin-right-20 margin-left-20 block">
+        <h2 class="section-type">
+          About
+        </h2>
+        <h3 class="section-title margin-bottom-20">
+          Who We Are
+        </h3>
+      </div>
+
+      <p class="paragraph margin-right-20 margin-bottom-20 margin-left-20">
+        Formally we present as a digital services agency, but in our hearts we are an enthusiastic group of team players focused on providing the best service.
+      </p>
+      <p class="paragraph margin-right-20 margin-bottom-20 margin-left-20">
+        We help startups and organizations to fully develop and implement their applications. We build highly scalable, fast and efficient production systems that are able to handle heavy traffic and the most demanding requirements for the
+        availability
+        of modern applications.
+      </p>
+
+      <p class="section-more-text">
+        <a href="/offer/offer.html">
+          Learn more about how we work
+        </a>
+      </p>
+
+  </section>
+
+
+  <!-- Promo -->
+  <section class="margin-bottom-20" id="promo">
     <div class="container">
-      <div class="section-highlight padding-20-20">
 
-        <div class="align-left margin-right-20">
-          <img src="img/team.png" class="margin-bottom-20" alt="team working">
-        </div>
-
+      <div class="center">
         <div id="about">
           <h2 class="section-type">
-            About
+            Promo
           </h2>
           <h3 class="section-title margin-bottom-20">
-            Who We Are
+            Seasson Discount
           </h3>
         </div>
 
-        <p class="paragraph margin-bottom-20">
-          Formally we present as a digital services agency, but in our hearts we are an enthusiastic group of team players focused on providing the best service.
-        </p>
-        <p class="paragraph margin-bottom-20">
-          A bunch of designers, and programmers working with a battle tested stack of technologies that allow us to work productively to offer you with a complete solution.
-        </p>
-        <p class="paragraph">
-          We help startups and organizations to fully develop and implement their applications. We build highly scalable, fast and efficient production systems that are able to handle heavy traffic and the most demanding requirements for the
-          availability
-          of modern applications.
+        <!-- Online Presence -->
+        <div class="box-row">
+          <div class="shadowed-box min-width-150">
+            <div class="center">
+              <div class="block">
+                <img src="img/webpage-icon.svg" alt="web page icon">
+              </div>
+              <p class="promo-name margin-top-20 margin-bottom-20 block">
+                Presence
+              </p>
+            </div>
+
+            <div class="separator-line"></div>
+            <p class="discount-name">
+              setup
+            </p>
+            <p class="discount-value">
+              -100%
+            </p>
+            <p class="discount-separator">
+              +
+            </p>
+            <p class="discount-name">
+              1 year hosting
+            </p>
+            <p class="discount-value">
+              2 months free
+            </p>
+            <div class="separator-line"></div>
+            <div class="center">
+              <ul>
+                <li class="list-item-ok">
+                  Custom design
+                </li>
+                <li class="list-item-ok">
+                  PSD to HTML+CSS
+                </li>
+                <li class="list-item-ok">
+                  Landing page
+                </li>
+                <li class="list-item-ok">
+                  Contact form
+                </li>
+                <li class="list-item-ok">
+                  Domain + SSL
+                </li>
+                <li class="list-item-ok">
+                  Analytics setup
+                </li>
+              </ul>
+            </div>
+            <div class="separator-line"></div>
+            <p class="promo-price margin-bottom-10">
+              zł 800
+            </p>
+            <p class="promo-discount margin-bottom-10">
+              50% Off!
+            </p>
+            <p class="footer-note margin-bottom-10">
+              (a) Subsequent period
+            </p>
+            <a class="blue-button std-button-text" href="offer/offer#online-presence">
+              See More
+            </a>
+          </div>
+
+          <!-- Real Estate -->
+          <div class="shadowed-box min-width-150">
+            <div class="center">
+              <div class="block">
+                <img src="img/house-icon.svg" alt="web page icon">
+              </div>
+              <p class="promo-name margin-top-20 margin-bottom-20 block">
+                Real Estate
+              </p>
+            </div>
+
+            <div class="separator-line"></div>
+            <p class="discount-name">
+              design
+            </p>
+            <p class="discount-value">
+              -10%
+            </p>
+            <p class="discount-separator">
+              +
+            </p>
+            <p class="discount-name">
+              1 year hosting
+            </p>
+            <p class="discount-value">
+              -100%
+            </p>
+            <div class="separator-line"></div>
+            <div class="center">
+              <ul>
+                <li class="list-item-ok">
+                  Showcase
+                </li>
+                <li class="list-item-ok">
+                  Sales flow
+                </li>
+                <li class="list-item-ok">
+                  Temp rentals (b)
+                </li>
+                <li class="list-item-ok">
+                  Tech support
+                </li>
+                <li class="list-item-ok">
+                  Domain + SSL
+                </li>
+                <li class="list-item-ok">
+                  Backups
+                </li>
+              </ul>
+            </div>
+            <div class="separator-line"></div>
+            <p class="promo-price margin-bottom-10">
+              zł 1699
+            </p>
+            <p class="promo-discount margin-bottom-10">
+              50% Off!
+            </p>
+            <p class="footer-note margin-bottom-10">
+              (c) Subsequent period
+            </p>
+            <a class="blue-button std-button-text" href="offer/offer#real-estate">
+              See More
+            </a>
+          </div>
+
+          <!-- Development -->
+          <div class="shadowed-box min-width-150">
+            <div class="center">
+              <div class="block">
+                <img src="img/computer-icon.svg" alt="web page icon">
+              </div>
+              <p class="promo-name margin-top-20 margin-bottom-20 block">
+                Development
+              </p>
+            </div>
+
+            <div class="separator-line"></div>
+            <p class="discount-separator">
+              &nbsp;
+            </p>
+            <p class="discount-separator">
+              &nbsp;
+            </p>
+            <p class="discount-name">
+              final price
+            </p>
+            <p class="discount-value">
+              -25%
+            </p>
+            <p class="discount-name">
+              &nbsp;
+            </p>
+            <div class="separator-line"></div>
+            <div class="center">
+              <ul>
+                <li class="list-item-ok">
+                  Golang web-apps
+                </li>
+                <li class="list-item-ok">
+                  API server
+                </li>
+                <li class="list-item-ok">
+                  Real-time apps
+                </li>
+                <li class="list-item-ok">
+                  Elm SPAs
+                </li>
+                <li class="list-item-ok">
+                  Flutter (d)
+                </li>
+                <li class="list-item-ok">
+                  Custom projects
+                </li>
+              </ul>
+            </div>
+            <div class="separator-line"></div>
+            <p class="promo-price margin-bottom-10">
+              zł 119 / mh
+            </p>
+            <p class="promo-discount margin-bottom-10">
+              25% Off!
+            </p>
+            <p class="footer-note margin-bottom-10">
+              (e) Unit reference
+            </p>
+            <a class="blue-button std-button-text" href="offer/offer#development">
+              See More
+            </a>
+          </div>
+
+          <!-- Design -->
+          <div class="shadowed-box min-width-150">
+            <div class="center">
+              <div class="block">
+                <img src="img/mac-icon.svg" alt="web page icon">
+              </div>
+              <p class="promo-name margin-top-20 margin-bottom-20 block">
+                Design
+              </p>
+            </div>
+
+            <div class="separator-line"></div>
+            <p class="discount-separator">
+              &nbsp;
+            </p>
+            <p class="discount-separator">
+              &nbsp;
+            </p>
+            <p class="discount-name">
+              final price
+            </p>
+            <p class="discount-value">
+              -30%
+            </p>
+            <p class="discount-name">
+              &nbsp;
+            </p>
+            <div class="separator-line"></div>
+            <div class="center">
+              <ul style="flex">
+                <li class="list-item-ok">
+                  Web
+                </li>
+                <li class="list-item-ok">
+                  PSD to HTML
+                </li>
+                <li class="list-item-ok">
+                  Logo
+                </li>
+                <li class="list-item-ok">
+                  Branding
+                </li>
+                <li class="list-item-ok">
+                  Brochures
+                </li>
+                <li class="list-item-ok">
+                  Stationery
+                </li>
+              </ul>
+            </div>
+            <div class="separator-line"></div>
+            <p class="promo-price margin-bottom-10">
+              zł 99 / mh
+            </p>
+            <p class="promo-discount margin-bottom-10">
+              30% Off!
+            </p>
+            <p class="footer-note margin-bottom-10">
+              (e) Unit reference
+            </p>
+            <a class="blue-button std-button-text" href="offer/offer#design">
+              See More
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="section-more-text">
+        <a href="/offer/offer.html">
+          Know about our complete offer
+        </a>
+      </p>
+
+      <p class="footer-note margin-bottom-10">
+        (a) zł 49/year hosting price from second year. (b) Instead of Real Estate Manager (c) zł 168/month hosting price from second year, 2 months free for annual payment. (d) Depending on demand. (e) mh stands for men/hour.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="margin-bottom-20" id="contact">
+    <div class="container">
+
+      <div class="center">
+        <div id="about">
+          <h2 class="section-type">
+            Contact
+          </h2>
+          <h3 class="section-title margin-bottom-20">
+            Drop as a line
+          </h3>
+        </div>
+
+        <!-- Form -->
+        <div class="box-row">
+          <div class="shadowed-box center">
+            <img id="butterfly" src="img/butterfly.svg" alt="butterfly">
+            <form action="https://formspree.io/form.contact@kugo.tech" method="POST" class="form">
+              <ul class="flex">
+                <li>
+                  <input type="text" id="name" placeholder="Name">
+                </li>
+                <li>
+                  <input type="email" id="email" placeholder="Email">
+                </li>
+                <li>
+                  <input type="subject" id="subject" placeholder="Subject">
+                </li>
+                <li>
+                  <textarea rows="6" id="message" placeholder="Your message here..."></textarea>
+                </li>
+                <li>
+                  <span>
+                    <button class="blue-button std-button-text" type="submit">Send</button>
+                    <img src="img/to-email.svg" alt="email address">
+                  </span>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-row">
+        <p class="footer-note margin-bottom-11">
+          Submitting the form means that you are sending personal information (name & email) to info@kugo.tech. Kugo Tech is the receiving party and data controller. We will only use this information for the purpose of establishing relationship
+          leading to possibly signing a services contract and eventual delivery thereof. We are not going to use this email to subscribe you to mailing lists, newsletters or to send you unwanted advertisements.
         </p>
       </div>
     </div>
   </section>
-
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/main.js"></script>

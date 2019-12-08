@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="31.75mm" height="4.7625mm" version="1.1" viewBox="0 0 3.175 0.47625" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-62.602 -73.72)">
+  <rect x="62.602" y="73.72" width="31.75" height="4.7625" fill="#fff" fill-rule="evenodd" stroke-width="0"/>
+  <text x="64.764282" y="77.053413" fill="#ff7f2a" font-family="Raleway" font-size="4.9389px" font-weight="bold" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="64.764282" y="77.053413" fill="#ff7f2a" font-family="Montserrat" font-size="2.8222px" font-weight="bold" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan fill="#4d4d4d" stroke-width=".26458">to</tspan> info@kugo.tech</tspan></text>
+ </g>
+</svg>
