@@ -16,12 +16,39 @@
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#f6f6f6","text":"#c87137","border":"#555555"},"button":{"background":"#c87137","text":"#ffffff"}},"position":"bottom","content":{"href":"https://www.websitepolicies.com/policies/view/QxcRoIRO"}})});</script>
+  <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css" />
+  <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function() {
+      window.wpcc.init({
+        "border": "thin",
+        "corners": "small",
+        "colors": {
+          "popup": {
+            "background": "#f6f6f6",
+            "text": "#c87137",
+            "border": "#555555"
+          },
+          "button": {
+            "background": "#c87137",
+            "text": "#ffffff"
+          }
+        },
+        "position": "bottom",
+        "content": {
+          "href": "https://www.websitepolicies.com/policies/view/QxcRoIRO"
+        }
+      })
+    });
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151907584-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-151907584-1');
@@ -460,19 +487,19 @@
         <div class="box-row">
           <div class="shadowed-box center">
             <img id="butterfly" src="img/butterfly.svg" alt="butterfly">
-            <form action="https://formspree.io/form.contact@kugo.tech" method="POST" class="form">
+            <form action="https://formspree.io/xledznkq" method="POST" class="form">
               <ul class="flex">
                 <li>
-                  <input type="text" id="name" placeholder="Name">
+                  <input type="text" id="name" name="name" placeholder="Name">
                 </li>
                 <li>
-                  <input type="email" id="email" placeholder="Email">
+                  <input type="email" id="email" name="_replyto" placeholder="Email">
                 </li>
                 <li>
-                  <input type="subject" id="subject" placeholder="Subject">
+                  <input type="subject" id="subject" name="subject" placeholder="Subject">
                 </li>
                 <li>
-                  <textarea rows="6" id="message" placeholder="Your message here..."></textarea>
+                  <textarea rows="6" id="message" name="message" placeholder="Your message here..."></textarea>
                 </li>
                 <li>
                   <span>
@@ -529,10 +556,10 @@
           <a href="#hero">Kugo © 2019 All Right Reserved</a>
         </div>
         <div id="footer-bootom-right" class="footer-text auto-width">
-        <!-- <div id="footer-bootom-right" class="col align-right footer-text auto-width"> -->
-              <a href="legal.html">Legal</a>
-              <a href="https://www.websitepolicies.com/policies/view/QxcRoIRO">Privacy</a>
-              <a href="terms.html">Terms</a>
+          <!-- <div id="footer-bootom-right" class="col align-right footer-text auto-width"> -->
+          <a href="legal.html">Legal</a>
+          <a href="https://www.websitepolicies.com/policies/view/QxcRoIRO">Privacy</a>
+          <a href="terms.html">Terms</a>
         </div>
       </div>
     </div>
