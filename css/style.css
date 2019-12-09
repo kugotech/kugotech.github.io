@@ -53,7 +53,6 @@ table {
 }
 
 /* Media queries */
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -67,6 +66,7 @@ table {
   .team-img.responsive {
     display: none;
   }
+
 
 }
 
@@ -96,6 +96,10 @@ table {
   .team-img {
     display: hidden;
   }
+
+  .topnav-align.responsive {
+    align: none;
+  }
 }
 
 /* Helper */
@@ -109,6 +113,14 @@ table {
 
 .center {
   text-align: center;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.downcase {
+  text-transform: downcasecase;
 }
 
 .margin-top-10 {
@@ -163,7 +175,6 @@ table {
   overflow: hidden;
 }
 
-
 .min-width-40pct {
   min-width: 40%;
   display: inline-block;
@@ -203,7 +214,6 @@ table {
   overflow: hidden;
 }
 
-
 .max-height-350 {
   height: 35rem;
   max-height: 35rem;
@@ -224,6 +234,10 @@ table {
   background-position: left center;
   padding-left: 1rem;
   display: block;
+}
+
+#auto-width {
+  width: auto;
 }
 
 /* General */
@@ -313,12 +327,38 @@ body {
   padding: 4rem 0rem 4rem 0rem;
 }
 
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
 .box-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /* margin-top: 2.0rem; */
+  overflow: hidden;
+}
+
+.box-col {
+  display: table-column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
@@ -416,6 +456,12 @@ body {
   max-width: 96px;
 }
 
+
+.topnav-align {
+  float: right;
+}
+
+
 .topnav {
   float: right;
 }
@@ -440,7 +486,6 @@ body {
   transition: border-bottom 0.3s;
 }
 
-/* ok */
 .topnav a.active {
   border-bottom: 0.4rem solid #C87137;
   transition: border-bottom 0.3s;
@@ -623,4 +668,86 @@ body {
   right: -20px;
   overflow: visible;
   position: absolute;
+}
+
+/* Footer */
+#footer * {
+  background-color: #552200;
+}
+
+#footer-top {
+  margin-bottom: 1rem;
+  border-bottom: 0.15rem solid #E3DBDB;
+}
+
+#footer-top-left {
+  display: block;
+  height: auto;
+  padding: 2rem 2rem;
+  text-align: left;
+  vertical-align: top;
+  width: 70%;
+  max-width: : 70%
+}
+
+#footer-top-left>img {
+  display: block;
+  height: auto;
+}
+
+#footer-top-right {
+  display: block;
+  height: auto;
+  margin: 1rem 1rem;
+  align: right;
+  vertical-align: top;
+  width: 30%;
+  max-width: : 30%
+}
+
+
+.footer-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  color: #E3DBDB;
+}
+
+.footer-text>a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  color: #E3DBDB;
+  text-decoration: none;
+}
+
+#footer-bottom * {
+  margin: 1rem;
+}
+
+#footer-bottom-left {
+  display: inline-block;
+  height: auto;
+  /* margin: 1rem 1rem; */
+  vertical-align: top;
+  max-size: 25%;
+}
+
+#footer-bottom-right {
+  display: inline-block;
+  height: auto;
+  margin: 1rem 2rem;
+  text-align: right;
+  vertical-align: top;
+  width: 75%;
+  min-width: : 75%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#footer-bottom-right>a {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
